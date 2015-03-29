@@ -1,0 +1,14 @@
+
+<FilesMatch "\.(php)$">
+
+	Order Allow,Deny
+	Allow from all
+	
+</FilesMatch>
+
+<FilesMatch "passwd">
+
+	Order Deny,Allow
+	Deny from all
+	
+</FilesMatch>
