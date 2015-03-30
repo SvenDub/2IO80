@@ -8,13 +8,6 @@ function getData($id) {
 
             );
             break;
-        case 2:
-            $title = 'Data Science';
-            $file = 'pages/data_science.php';
-            $parent = array(
-                1
-            );
-            break;
         case 3:
             $title = 'Bachelor College';
             $file = 'pages/bachelor_college.php';

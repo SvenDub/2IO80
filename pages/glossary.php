@@ -12,7 +12,7 @@
         array(
             'word' => 'Data Science',
             'definition' => 'The extraction of knowledge from data.',
-            'see' => '?id=2'
+            'see' => '?id=1'
         ),
         array(
             'word' => 'Bachelor',

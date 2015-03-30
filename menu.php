@@ -1,5 +1,4 @@
 <li><a href="?id=1">Home</a></li>
-<li><a href="?id=2">Data Science</a></li>
 <li><a href="?id=3">Bachelor College</a>
     <ul>
         <li><a href="?id=4">Electives</a></li>
