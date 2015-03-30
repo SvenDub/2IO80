@@ -146,6 +146,7 @@ $data = getData($id);
     <?php endif; ?>
     <script src="jquery-2.1.3.min.js" type="text/javascript"></script>
     <script src="jquery.pin.min.js" type="text/javascript"></script>
+    <script src="list-filter.js" type="text/javascript"></script>
 
     <script type="text/javascript">
         window.onload = function() {
