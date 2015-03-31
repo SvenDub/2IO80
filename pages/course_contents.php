@@ -2,7 +2,7 @@
 
 <h2><a name="timetable">Timetable</a></h2>
 <div class="table">
-    <table>
+    <table style="margin-left: auto; margin-right: auto;">
         <tbody>
         <tr>
             <td rowspan="4">Year 1</td>
