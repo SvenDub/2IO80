@@ -15,7 +15,7 @@
 </li>
 <li><a href="?id=7">Curriculum</a>
     <ul>
-        <li><a href="?id=8">Detailed Timetable</a></li>
+        <li><a href="?id=8">Year Overview</a></li>
         <li><a href="?id=9">Course Contents</a></li>
     </ul>
 </li>

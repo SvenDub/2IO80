@@ -1,4 +1,4 @@
-<h1>Detailed Timetable</h1>
+<h1>Year Overview</h1>
 <p>Agenda Academic year 2015-2016</p>
 <div style="width: 100%">
     <div class="table" style="width: auto;">
