@@ -14,4 +14,5 @@
     <li><a href="http://101.datascience.community/2012/04/09/colleges-with-data-science-degrees/" target="_blank">Universities
             providing
             a Data Science related program</a></li>
+    <li><a href="https://github.com/SvenDub/2IO80" target="_blank">Website Source (GitHub)</a></li>
 </ul>
