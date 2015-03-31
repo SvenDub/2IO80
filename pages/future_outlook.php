@@ -63,7 +63,7 @@
         insights and products.
     </li>
 </ul>
-<img src="images/future_outlook_chart.png" alt="Skills and Self - ID Top Factors"/>
+<img style="width: 600px;" src="images/future_outlook_chart.png" alt="Skills and Self - ID Top Factors"/>
 
 <h2>Masters in Data Science</h2>
 <p>

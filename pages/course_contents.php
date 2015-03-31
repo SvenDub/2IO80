@@ -19,14 +19,14 @@
         </tr>
         <tr>
             <td><a href="#programming">Programming</a></td>
-            <td><a href="#logic">Logic & Set Theory</a></td>
             <td><a href="#computer_systems">Computer Systems</a></td>
+            <td><a href="#signals">Signals and Mathematics</a></td>
             <td><a href="#data_structures">Data Structures</a></td>
         </tr>
         <tr>
-            <td><a href="#psytech">Introduction Psychology & Technology</a></td>
+            <td><a href="#logic">Logic & Set Theory</a></td>
             <td><a href="?id=4">Elective</a></td>
-            <td><a href="#hypermedia">DBL Hypermedia</a></td>
+            <td><a href="#data_science">DBL Data Science</a></td>
             <td><a href="?id=4">Elective</a></td>
         </tr>
         <tr>
@@ -89,14 +89,11 @@
 </p>
 <a href="#timetable">Back to top</a>
 
-<h2><a name="psytech">Introduction Psychology & Technology</a></h2>
+<h2><a name="signals">Signals and Mathematics</a></h2>
 <p>
-    Are you interested in understanding the human mind, how we think and perceive and how our
-    brains work? This course introduces you in the fascinating world of psychology. You will
-    learn about motivation and emotions and other factors shaping human behavior, including the
-    social nature of the human 'animal'. Psychological knowledge will improve your
-    understanding how to create technological systems and environments that fit human
-    capabilities and serve people's needs.
+    In the signals part of the course, the following subjects will be treated: -Periodic signals: sine, cosine, phasors,
+    time- and phase shift -Transforms: Fourier series, spectral decomposition, analysis and synthesis -Ideal convertors:
+    sampling and aliasing, sampling theorem -FIR filters: discrete-time systems, impulse response and convolution.
 </p>
 <a href="#timetable">Back to top</a>
 
@@ -137,10 +134,12 @@
 </p>
 <a href="#timetable">Back to top</a>
 
-<h2><a name="hypermedia">DBL Hypermedia</a></h2>
+<h2><a name="data_science">DBL Data Science</a></h2>
 <p>
-    In this course students will learn: - about the concepts of hypermedia (in a Web context), -
-    how to use wiki tools for creating own wiki sites, - how to work efficiently in a group.
+    In this design based learning project you will work on designing a program that can process big amounts of data. You
+    will be working with a group of 6. You will also be working on your presenting skills, there are multiple deadlines
+    and for each one of these deadlines you will give a presentation on your progress. The grades will be based on your
+    intermediate reports and on your end product. Your presentation skills and teamwork will be graded separately.
 </p>
 <a href="#timetable">Back to top</a>
 
