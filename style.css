@@ -84,7 +84,7 @@
 }
 
 /* min-width=170*amountOfMenuItems+50 */
-@media (min-width: 1580px) {
+@media (min-width: 1410px) {
 
     #navigation-overflow {
         display: none;
