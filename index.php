@@ -7,12 +7,18 @@ function getData($id) {
             $parent = array(
 
             );
+            $right_col = array(
+
+            );
             break;
         case 3:
             $title = 'Bachelor College';
             $file = 'pages/bachelor_college.php';
             $parent = array(
                 1
+            );
+            $right_col = array(
+                4, 16, 5, 6
             );
             break;
         case 4:
@@ -21,12 +27,18 @@ function getData($id) {
             $parent = array(
                 1, 3
             );
+            $right_col = array(
+                3, 16, 5, 6
+            );
             break;
         case 5:
             $title = 'USE';
             $file = 'pages/use.php';
             $parent = array(
                 1, 3
+            );
+            $right_col = array(
+                3, 4, 16, 6
             );
             break;
         case 6:
@@ -35,12 +47,18 @@ function getData($id) {
             $parent = array(
                 1, 3
             );
+            $right_col = array(
+                3, 4, 16, 5
+            );
             break;
         case 7:
             $title = 'Curriculum';
             $file = 'pages/curriculum.php';
             $parent = array(
                 1
+            );
+            $right_col = array(
+                8, 9
             );
             break;
         case 8:
@@ -49,12 +67,18 @@ function getData($id) {
             $parent = array(
                 1, 7
             );
+            $right_col = array(
+                7, 9
+            );
             break;
         case 9:
             $title = 'Course Contents';
             $file = 'pages/course_contents.php';
             $parent = array(
                 1, 7
+            );
+            $right_col = array(
+                7, 8
             );
             break;
         case 10:
@@ -63,12 +87,18 @@ function getData($id) {
             $parent = array(
                 1
             );
+            $right_col = array(
+
+            );
             break;
         case 11:
             $title = 'Admission';
             $file = 'pages/admission.php';
             $parent = array(
                 1
+            );
+            $right_col = array(
+
             );
             break;
         case 12:
@@ -77,12 +107,18 @@ function getData($id) {
             $parent = array(
                 1
             );
+            $right_col = array(
+
+            );
             break;
         case 13:
             $title = 'Glossary';
             $file = 'pages/glossary.php';
             $parent = array(
                 1
+            );
+            $right_col = array(
+
             );
             break;
         case 14:
@@ -91,11 +127,17 @@ function getData($id) {
             $parent = array(
                 1
             );
+            $right_col = array(
+
+            );
             break;
         case 15:
             $title = 'Sitemap';
             $file = 'pages/sitemap.php';
             $parent = array(
+
+            );
+            $right_col = array(
 
             );
             break;
@@ -105,6 +147,9 @@ function getData($id) {
             $parent = array(
                 1, 3
             );
+            $right_col = array(
+                3, 4, 5, 6
+            );
             break;
         default:
             $title = 'Page not found';
@@ -112,11 +157,15 @@ function getData($id) {
             $parent = array(
                 1
             );
+            $right_col = array(
+
+        );
     }
 
     $data['title'] = $title;
     $data['file'] = $file;
     $data['parent'] = $parent;
+    $data['right_col'] = $right_col;
 
     return $data;
 }
@@ -222,14 +271,28 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |      $$\   $$ |
 </div>
 
 <div id="body">
-
     <?php
 
+    if (count($data['right_col']) > 0) {
+        echo '<div id="col-left">';
+    }
 
     if ((@include_once $data['file']) === false) {
         include_once 'pages/404.php';
     }
 
+    if (count($data['right_col']) > 0) {
+        echo '</div>';
+        echo '<div id="col-right">';
+
+        $i = 1;
+        foreach ($data['right_col'] as $id) {
+            echo '<a class="related-link related-link-' . $i . '" href="?id=' . $id . '">' . getData($id)['title'] . '</a>';
+            $i++;
+        }
+
+        echo '</div>';
+    }
 
     ?>
 

@@ -131,6 +131,7 @@
 
 #header h1 {
     font-size: 4em;
+    margin: 0;
 }
 
 #header h1 a {
@@ -179,7 +180,7 @@
     padding: 5px;
     color: white;
     font-weight: bold;
-    background: #2d2d2d url('images/tue-logo-small.png') no-repeat;
+    background: #2d2d2d url("images/tue-logo-small.png") no-repeat;
     background-position-x: right;
     background-size: contain;
 }
@@ -241,4 +242,63 @@ a[name]:before {
     width: 0;
     height: 80px;
     margin-top: -80px;
+}
+
+@media (min-width: 1500px) {
+    #col-left {
+        display: inline-block;
+        width: 75%;
+    }
+
+    #col-right {
+        display: inline-block;
+        width: 25%;
+        vertical-align: top;
+    }
+}
+
+#col-right {
+    padding-top: 50px;
+}
+
+.related-link {
+    width: 100%;
+    display: inline-block;
+    min-height: 50px;
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+    line-height: 50px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.related-link-1 {
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+!important;
+    background-position: 0px 0px;
+}
+
+.related-link-2 {
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+!important;
+    background-position: 0px -60px;
+}
+
+.related-link-3 {
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+!important;
+    background-position: 0px -120px;
+}
+
+.related-link-4 {
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+!important;
+    background-position: 0px -180px;
+}
+
+.related-link-5 {
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+!important;
+    background-position: 0px -240px;
 }
