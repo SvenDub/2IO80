@@ -46,7 +46,7 @@
     display: block;
     width: 30px;
     height: 30px;
-    background: url("images/ic_navigation_menu.png");
+    background: url("images/ic-navigation-menu.png");
     right: 10px;
     position: absolute;
 }
@@ -265,7 +265,7 @@ a[name]:before {
     width: 100%;
     display: inline-block;
     min-height: 50px;
-    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/related-links-background.jpg") no-repeat;
     line-height: 50px;
     font-size: 40px;
     color: white;
@@ -274,31 +274,31 @@ a[name]:before {
 }
 
 .related-link-1 {
-    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/related-links-background.jpg") no-repeat;
 !important;
     background-position: 0px 0px;
 }
 
 .related-link-2 {
-    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/related-links-background.jpg") no-repeat;
 !important;
     background-position: 0px -60px;
 }
 
 .related-link-3 {
-    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/related-links-background.jpg") no-repeat;
 !important;
     background-position: 0px -120px;
 }
 
 .related-link-4 {
-    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/related-links-background.jpg") no-repeat;
 !important;
     background-position: 0px -180px;
 }
 
 .related-link-5 {
-    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/background2.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, .25)), url("images/related-links-background.jpg") no-repeat;
 !important;
     background-position: 0px -240px;
 }

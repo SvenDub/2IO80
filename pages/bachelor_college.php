@@ -4,7 +4,7 @@
     broadening knowledge while allowing a large amount of choice freedom. In short, bachelor college is built up as
     follows:
 </p>
-<img src="images/bachelor_college_chart.png" alt="Data Science in Slices" style="width: 750px;"/>
+<img src="images/bachelor-college-chart.png" alt="Data Science in Slices" style="width: 750px;"/>
 <p>
     Half of the bachelor is made up of the <a href="?id=6">major</a>; the main route throughout the educational program that will provide
     the students with the skills and knowledge required for the specific program, such as Data Science. A fourth part of
