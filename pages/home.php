@@ -1,8 +1,8 @@
 <h1>Data Science</h1>
 <div class="carousel">
-    <div>A</div>
-    <div>B</div>
-    <div>C</div>
+    <div><a href="?id=11"><img src="images/carousel_a.png" /></a></div>
+    <div><a href="?id=3"><img src="images/carousel_bc.png" /></a></div>
+    <div><a href="?id=7"><img src="images/carousel_c.png" /></a></div>
 </div>
 
 <p>
