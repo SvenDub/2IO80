@@ -237,6 +237,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |      $$\   $$ |
 
 <div id="bottom">
     <a href="?id=15">Sitemap</a>
+    <img src="images/tue-logo-small.png" />
 </div>
 </body>
 </html>

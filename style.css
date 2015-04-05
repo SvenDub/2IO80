@@ -178,8 +178,10 @@
     height: 20px;
     padding: 5px;
     color: white;
-    background-color: #2d2d2d;
     font-weight: bold;
+    background: #2d2d2d url('images/tue-logo-small.png') no-repeat;
+    background-position-x: right;
+    background-size: contain;
 }
 
 img {
