@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 /* Slider */
 .slick-loading .slick-list
 {
@@ -69,7 +69,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: #2d2d2d;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -86,11 +86,11 @@
 }
 .slick-prev:before
 {
-    content: '';
+    content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '';
+    content: '→';
 }
 
 .slick-next
@@ -104,17 +104,19 @@
 }
 .slick-next:before
 {
-    content: '';
+    content: '→';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '';
+    content: '←';
 }
 
 /* Dots */
 .slick-slider
 {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .slick-dots
@@ -189,7 +191,7 @@
     text-align: center;
 
     opacity: .25;
-    color: black;
+    color: #2d2d2d;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -197,5 +199,5 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: black;
+    color: #2d2d2d;
 }
