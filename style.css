@@ -83,6 +83,12 @@
     background-color: #ebebeb;
 }
 
+#navigation-menu > li.menu-contact {
+    float: right;
+    width: auto;
+    border-left: #2d2d2d 2px solid;
+}
+
 /* min-width=170*amountOfMenuItems+50 */
 @media (min-width: 1410px) {
 
@@ -115,7 +121,7 @@
     }
 
     #navigation-menu > li:hover {
-        box-shadow: black 0 5px 10px;
+        box-shadow: black 0 2px 10px;
         background-color: white;
     }
 
@@ -180,7 +186,7 @@
     padding: 5px;
     color: white;
     font-weight: bold;
-    background: #2d2d2d url("images/tue-logo-small.png") no-repeat;
+    background: #2d2d2d url("images/tue-logo-transparent.png") no-repeat;
     background-position-x: right;
     background-size: contain;
 }

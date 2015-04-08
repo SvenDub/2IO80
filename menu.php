@@ -23,4 +23,4 @@
 <li><a href="?id=11">Admission</a></li>
 <li><a href="?id=12">Links</a></li>
 <li><a href="?id=13">Glossary</a></li>
-<li><a href="?id=14">Contact</a></li>
+<li class="menu-contact"><a href="?id=14">Contact</a></li>
