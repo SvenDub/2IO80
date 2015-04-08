@@ -211,8 +211,8 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |      $$\   $$ |
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php endif; ?>
     <script src="jquery-2.1.3.min.js" type="text/javascript"></script>
-    <script src="jquery.pin.min.js" type="text/javascript"></script>
-    <script src="list-filter.js" type="text/javascript"></script>
+    <script async src="jquery.pin.min.js" type="text/javascript"></script>
+    <script async src="list-filter.js" type="text/javascript"></script>
 
     <script type="text/javascript">
         window.onload = function() {
@@ -220,9 +220,9 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |      $$\   $$ |
         }
     </script>
 
-    <link rel="stylesheet" type="text/css" href="slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="slick/slick.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">-->
+    <script async type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $('.carousel').slick({
@@ -301,5 +301,22 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |      $$\   $$ |
 <div id="bottom">
     <a href="?id=15">Sitemap</a>
 </div>
+<script>
+    var cb = function() {
+        var h = document.getElementsByTagName('head')[0];
+
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = 'slick/slick.css';
+        h.parentNode.insertBefore(l, h);
+
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = 'slick/slick-theme.css';
+        h.parentNode.insertBefore(l, h);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+        webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(cb);
+    else window.addEventListener('load', cb);
+</script>
 </body>
 </html>

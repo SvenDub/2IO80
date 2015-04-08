@@ -1,8 +1,8 @@
 <h1>Data Science</h1>
 <div class="carousel">
-    <div><a href="?id=11"><img src="images/carousel-admission.png" /></a></div>
-    <div><a href="?id=3"><img src="images/carousel-bachelor-college.png" /></a></div>
-    <div><a href="?id=7"><img src="images/carousel-curriculum.png" /></a></div>
+    <div><a href="?id=11"><img id="carousel-admission" /></a></div>
+    <div><a href="?id=3"><img id="carousel-bachelor-college" /></a></div>
+    <div><a href="?id=7"><img id="carousel-curriculum" /></a></div>
 </div>
 
 <p>
@@ -25,3 +25,9 @@
 <p>
     <i>This site is created by TU/e students and does not contain real information about a course at TU/e.</i>
 </p>
+
+<script type="text/javascript">
+    $("#carousel-admission")[0].src = (screen.width > 600) ? "images/carousel-admission.jpg" : "images/carousel-admission-small.jpg";
+    $("#carousel-bachelor-college")[0].src = (screen.width > 600) ? "images/carousel-bachelor-college.jpg" : "images/carousel-bachelor-college-small.jpg";
+    $("#carousel-curriculum")[0].src = (screen.width > 600) ? "images/carousel-curriculum.jpg" : "images/carousel-curriculum-small.jpg";
+</script>
