@@ -22,3 +22,6 @@
     students will also follow the so-called <a href="?id=5">USE courses</a> that put the skills and information gathered
     in the major in a broader, societal context.
 </p>
+<p>
+    <i>This site is created by TU/e students and does not contain real information about a course at TU/e.</i>
+</p>
