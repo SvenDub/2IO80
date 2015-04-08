@@ -1,5 +1,5 @@
 <h1>Curriculum</h1>
-<div class="table">
+<div class="table table-curriculum">
     <table style="margin-left: auto; margin-right: auto;">
         <tbody>
         <tr>

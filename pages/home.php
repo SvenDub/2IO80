@@ -5,7 +5,7 @@
     <div><a href="?id=7"><img id="carousel-curriculum" /></a></div>
 </div>
 
-<p>
+<p style="font-size: larger">
     You are interested in computers and enjoy analytical thinking. You are not afraid of mathematics and see a challenge
     in large bulks of data and to top it all up, you have just opened the website of the exact bachelor that will
     fulfill all these demands: Data Science.

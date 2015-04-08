@@ -91,7 +91,6 @@
 
 /* min-width=170*amountOfMenuItems+50 */
 @media (min-width: 1410px) {
-
     #navigation-overflow {
         display: none;
     }
@@ -111,6 +110,7 @@
         position: relative;
         width: 150px;
         margin-right: 10px;
+        transition: box-shadow 0.2s;
     }
 
     #navigation-menu ul {
@@ -239,6 +239,15 @@ table tbody tr {
 
 table#masters tbody tr td:first-child {
     border-right: 1px solid #2d2d2d;
+}
+
+.table-curriculum td {
+    height: 50px;
+    border-right: 1px solid #2d2d2d;
+}
+
+.table-curriculum tbody tr td:last-child {
+    border-right: none;
 }
 
 a[name]:before {
