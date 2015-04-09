@@ -4,12 +4,8 @@ function getData($id) {
         case 1:
             $title = 'Home';
             $file = 'pages/home.php';
-            $parent = array(
-
-            );
-            $right_col = array(
-
-            );
+            $parent = array();
+            $right_col = array();
             break;
         case 3:
             $title = 'Bachelor College';
@@ -87,9 +83,7 @@ function getData($id) {
             $parent = array(
                 1
             );
-            $right_col = array(
-
-            );
+            $right_col = array();
             break;
         case 11:
             $title = 'Admission';
@@ -97,9 +91,7 @@ function getData($id) {
             $parent = array(
                 1
             );
-            $right_col = array(
-
-            );
+            $right_col = array();
             break;
         case 12:
             $title = 'Links';
@@ -107,9 +99,7 @@ function getData($id) {
             $parent = array(
                 1
             );
-            $right_col = array(
-
-            );
+            $right_col = array();
             break;
         case 13:
             $title = 'Glossary';
@@ -117,9 +107,7 @@ function getData($id) {
             $parent = array(
                 1
             );
-            $right_col = array(
-
-            );
+            $right_col = array();
             break;
         case 14:
             $title = 'Contact';
@@ -127,19 +115,13 @@ function getData($id) {
             $parent = array(
                 1
             );
-            $right_col = array(
-
-            );
+            $right_col = array();
             break;
         case 15:
             $title = 'Sitemap';
             $file = 'pages/sitemap.php';
-            $parent = array(
-
-            );
-            $right_col = array(
-
-            );
+            $parent = array();
+            $right_col = array();
             break;
         case 16:
             $title = 'Basic Courses';
@@ -157,9 +139,7 @@ function getData($id) {
             $parent = array(
                 1
             );
-            $right_col = array(
-
-        );
+            $right_col = array();
     }
 
     $data['title'] = $title;
@@ -175,6 +155,7 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : 1;
 $data = getData($id);
 
 ?>
+<!doctype html>
 <!--
  $$$$$$\  $$$$$$\  $$$$$$\   $$$$$$\   $$$$$$\
 $$  __$$\ \_$$  _|$$  __$$\ $$  __$$\ $$$ __$$\
@@ -199,14 +180,13 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |      $$\   $$ |
                                         $$ |
                                         \__|
 -->
-<!doctype html>
-<html lang="eng">
+<html lang="en">
 <head>
     <title><?php echo $data['title']; ?> - Data Science TU/e</title>
 
     <link rel="stylesheet" type="text/css" href="style.min.css">
     <meta name="theme-color" content="#13285d">
-    <link href="images/favicon.ico" rel="icon" />
+    <link href="images/favicon.ico" rel="icon"/>
     <?php if (strpos($_SERVER['HTTP_USER_AGENT'], "Mobi")): ?>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php endif; ?>
@@ -215,7 +195,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |      $$\   $$ |
     <script async src="list-filter.min.js" type="text/javascript"></script>
 
     <script type="text/javascript">
-        window.onload = function() {
+        window.onload = function () {
             $(".pinned").pin();
         }
     </script>
@@ -224,7 +204,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |      $$\   $$ |
     <!--<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">-->
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
+        $(document).ready(function () {
             $('.carousel').slick({
                 autoplay: true,
                 autoplaySpeed: 4000,
@@ -302,14 +282,16 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |      $$\   $$ |
     <a href="?id=15">Sitemap</a>
 </div>
 <script>
-    var cb = function() {
+    var cb = function () {
         var h = document.getElementsByTagName('head')[0];
 
-        var l = document.createElement('link'); l.rel = 'stylesheet';
+        var l = document.createElement('link');
+        l.rel = 'stylesheet';
         l.href = 'slick/slick.css';
         h.parentNode.insertBefore(l, h);
 
-        var l = document.createElement('link'); l.rel = 'stylesheet';
+        var l = document.createElement('link');
+        l.rel = 'stylesheet';
         l.href = 'slick/slick-theme.css';
         h.parentNode.insertBefore(l, h);
     };
